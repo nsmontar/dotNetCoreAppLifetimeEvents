@@ -1,0 +1,3 @@
+App started at 23.7.2021. 12:03:36
+App stopping at 23.7.2021. 12:03:42
+App stopped at 23.7.2021. 12:03:42

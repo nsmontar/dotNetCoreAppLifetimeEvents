@@ -3,6 +3,11 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>Stop this application</h1>
+    <h3>Time Stamp: @ViewBag.TimeStamp</h3>
+    
+    <form action='@Url.Action("Stop", "Home")' method="POST">
+        <input type="hidden" name="html" id="html"  value="ADD YOUR HTML HERE">
+        <button type="submit">Stop Application</button>
+    </form>
 </div>
